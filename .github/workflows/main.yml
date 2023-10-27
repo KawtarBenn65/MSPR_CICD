@@ -7,3 +7,6 @@ jobs:
     - uses: actions/checkout@master
     - run: |
           jar cvf groupeX.war * && ls
+          password= ec2-13-38-7-106.eu-west-3.compute.amazonaws.com
+          USERNAME = admin
+          DEPLOY_PORT = 22
